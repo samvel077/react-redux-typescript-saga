@@ -24,6 +24,7 @@ function* todoCall(): Generator {
     
     const data: any = yield call(axiosTodofromApi);
     
+    // yield call(wait, 1000);
     // yield wait(500);
 
     yield put({
