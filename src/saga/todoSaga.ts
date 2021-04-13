@@ -34,7 +34,7 @@ function* todoCall(): Generator {
   } catch (e) {
     yield put({
       type: TodoActionTypes.FETCH_TODOS_ERROR,
-      payload: "Произошла ошибка при загрузке списка дел",
+      payload: "Произошла ошибка при загрузке списка ползователй",
     });
   }
 }
